@@ -8,9 +8,9 @@ Given a set of data points, the objective is to find a polynomial that minimizes
 
 The fitted polynomial has the form:
 
-[
+$$
 P(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n
-]
+$$
 
 The coefficients are obtained by constructing and solving the corresponding normal equation system.
 
@@ -36,21 +36,21 @@ The coefficients are obtained by constructing and solving the corresponding norm
 
 The algorithm minimizes:
 
-[
+$$
 S=\sum_{i=1}^{m}(y_i-P(x_i))^2
-]
+$$
 
 which leads to the normal equation system:
 
-[
+$$
 A\mathbf{a}=\mathbf{d}
-]
+$$
 
 where:
 
 * (A) is the coefficient matrix
-* (\mathbf{a}) is the polynomial coefficient vector
-* (\mathbf{d}) is the right-hand side vector
+* $$(\mathbf{a})$$ is the polynomial coefficient vector
+* $$(\mathbf{d})$$ is the right-hand side vector
 
 The system is solved using NumPy's linear algebra routines.
 
