@@ -48,7 +48,7 @@ $$
 
 where:
 
-* (A) is the coefficient matrix
+* $$(mathbf{A})$$ is the coefficient matrix
 * $$(\mathbf{a})$$ is the polynomial coefficient vector
 * $$(\mathbf{d})$$ is the right-hand side vector
 
